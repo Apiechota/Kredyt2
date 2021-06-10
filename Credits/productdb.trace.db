@@ -1,0 +1,4 @@
+2021-05-16 19:02:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "CREDIT" nie istnieje
+Table "CREDIT" not found; SQL statement:
+select credit0_.id as id1_0_, credit0_.name as name2_0_ from credit credit0_ [42102-200]

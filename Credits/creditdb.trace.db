@@ -1,0 +1,8 @@
+2021-05-16 18:41:33 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "CREDIT" nie istnieje
+Table "CREDIT" not found; SQL statement:
+select credit0_.id as id1_0_, credit0_.name as name2_0_ from credit credit0_ [42102-200]
+2021-05-16 18:57:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabela "PRODUCT" nie istnieje
+Table "PRODUCT" not found; SQL statement:
+select product0_.creditid as creditid1_2_, product0_.value as value2_2_, product0_.product_name as product_3_2_ from product product0_ [42102-200]
